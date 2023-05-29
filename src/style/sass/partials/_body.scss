@@ -1,0 +1,73 @@
+@import "colori";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: $body-background-color !important;
+  color: $primary-color !important;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+
+  * {
+    all: initial;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    color: $primary-color;
+    cursor: pointer;
+  }
+
+  &:hover {
+    * {
+      color: $text-hover-color;
+    }
+  }
+  &:visited {
+    * {
+      color: $text-visited-color;
+    }
+  }
+}
+
+.textUppercase {
+  text-transform: uppercase;
+}
+
+.link-reset {
+  color: inherit;
+  text-decoration: none;
+}
+
+// BUTTONS //
+.allButtons {
+  color: $primary-color !important;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  border-color: $primary-color !important;
+  border: 1px solid $primary-color !important;
+}
+
+.hideButton {
+  color: rgba(128, 128, 128, 0.374) !important;
+  border: 1px solid rgba(128, 128, 128, 0.374) !important;
+}
+
+.routes-container {
+  background-color: $routes-container-color;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.unstyled-link {
+  color: inherit;
+  text-decoration: none;
+  all: none;
+}

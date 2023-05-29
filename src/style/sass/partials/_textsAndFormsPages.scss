@@ -1,0 +1,36 @@
+@import "colori";
+
+.textsAndFormsContainer {
+  padding-top: 3.4vh;
+  padding-bottom: 3.4vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: $forms-background-color;
+}
+
+.loginFormContainer {
+  margin-top: 8.5vh;
+  margin-bottom: 8.5vh;
+}
+
+.signInPageContainer {
+  margin-top: 8.2vh;
+  margin-bottom: 8.2vh;
+}
+
+.contactsPageContainer {
+  margin-top: 3.7vh;
+  margin-bottom: 3.6vh;
+}
+
+.message-input-wrapper {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 10px !important;
+  border: solid 2px $primary-color!important;
+ 
+  padding: 0, 15px;
+  box-shadow: 0px 0px 8px #0000004b;
+  display: flex;
+  align-items: center;
+}

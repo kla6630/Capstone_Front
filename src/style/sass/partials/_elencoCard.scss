@@ -1,0 +1,27 @@
+.elencoBebCard {
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.elencoCardContainer {
+  background-color: rgba(255, 255, 255, 0.264);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.elencoCardImg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  transition: opacity 0.5s ease;
+  border-radius: 5px;
+  
+}
+
+span {
+  cursor: pointer;
+}

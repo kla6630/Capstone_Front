@@ -1,0 +1,12 @@
+@import "colori";
+
+.sectionTitle {
+  color: $primary-color;
+}
+.sectionTitleLink {
+  color: $primary-color !important;
+
+  &:hover {
+    color: $text-hover-color !important;
+  }
+}

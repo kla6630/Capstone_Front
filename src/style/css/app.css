@@ -1,0 +1,680 @@
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(131, 169, 201) !important;
+  color: rgb(50, 50, 50) !important;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+a * {
+  all: initial;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  cursor: pointer;
+}
+a:hover * {
+  color: #368cfb;
+}
+a:visited * {
+  color: rgb(126, 126, 126);
+}
+
+.textUppercase {
+  text-transform: uppercase;
+}
+
+.link-reset {
+  color: inherit;
+  text-decoration: none;
+}
+
+.allButtons {
+  color: rgb(50, 50, 50) !important;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  border-color: rgb(50, 50, 50) !important;
+  border: 1px solid rgb(50, 50, 50) !important;
+}
+
+.hideButton {
+  color: rgba(128, 128, 128, 0.374) !important;
+  border: 1px solid rgba(128, 128, 128, 0.374) !important;
+}
+
+.routes-container {
+  background-color: #e4ebf1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.unstyled-link {
+  color: inherit;
+  text-decoration: none;
+  all: none;
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2e8abb;
+  color: rgb(50, 50, 50);
+  font-weight: bold;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  border-top: 2px solid;
+}
+footer a {
+  color: rgb(50, 50, 50);
+}
+footer a:hover {
+  color: #caf0f8;
+}
+
+.footer-icons {
+  font-size: x-large !important;
+  margin-right: 2%;
+  color: rgb(50, 50, 50) !important;
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.myNavbar {
+  padding: 1.5rem !important;
+}
+
+.nav-home {
+  background-color: #a7caf5;
+}
+
+.nav-beb {
+  background-color: #ade8f4;
+}
+
+.nav-hotel {
+  background-color: #90e0ef;
+}
+
+.nav-apartment {
+  background-color: #48cae4;
+}
+
+.nav-residence {
+  background-color: #00b4d8;
+}
+
+.nav-other {
+  background-color: #0096c7;
+}
+
+.colonnaCentrale {
+  display: flex !important;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkColonnaCentrale {
+  padding-top: 1.5rem;
+}
+
+#logoImg {
+  max-height: 3.5rem;
+  color: rgb(50, 50, 50);
+}
+
+@media screen and (max-width: 768px) {
+  .myNavbarBigScreens {
+    display: none !important;
+  }
+  .myNavbarSmallScreens {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .myNavbarSmallScreens {
+    display: none !important;
+  }
+  .myNavbarBigScreens {
+    display: block !important;
+  }
+}
+.myNavbarText {
+  color: rgb(50, 50, 50);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.myNavbarText:hover {
+  color: #368cfb !important;
+}
+
+.menuButton {
+  color: rgb(50, 50, 50) !important;
+  border-color: rgb(50, 50, 50) !important;
+  padding: 0.5rem !important;
+}
+
+.lastRows {
+  margin-top: 2rem;
+  border-top: 1px solid rgb(50, 50, 50);
+  padding: 10px;
+}
+
+a.nav-link {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.bigCardMainContainer {
+  background-color: #d0e3fa;
+}
+
+.bigCardMainContainerMontagna {
+  background-color: #797e69;
+}
+
+.bigCardMainContainerMare {
+  background-color: #56afca;
+}
+
+.bigCardImageContainer {
+  position: relative;
+  padding-top: 66.666%;
+  /* aspect ratio 3:2 */
+}
+
+.bigCardImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.bigCardImage.loaded {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bigCardImageContainer {
+    padding-top: 115%;
+    /* regola questo per evitare spazi vuoti sotto l'immagine */
+  }
+}
+.strutturePiurichiesteCardimg {
+  height: 15em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.strutturePiurichiesteCardButton {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.cardTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.cardText {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 3.6em;
+  line-height: 1.8em;
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.textsAndFormsContainer {
+  padding-top: 3.4vh;
+  padding-bottom: 3.4vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: rgb(199, 228, 255);
+}
+
+.loginFormContainer {
+  margin-top: 8.5vh;
+  margin-bottom: 8.5vh;
+}
+
+.signInPageContainer {
+  margin-top: 8.2vh;
+  margin-bottom: 8.2vh;
+}
+
+.contactsPageContainer {
+  margin-top: 3.7vh;
+  margin-bottom: 3.6vh;
+}
+
+.message-input-wrapper {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 10px !important;
+  border: solid 2px rgb(50, 50, 50) !important;
+  padding: 0, 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2941176471);
+  display: flex;
+  align-items: center;
+}
+
+.bigCardAttivitaContainer {
+  background-color: #afe0f3;
+  border: solid 1px rgb(213, 211, 211);
+  padding-bottom: 20px;
+}
+
+.bigCardAttivitaContainerInterno {
+  background-color: #e0f3f9;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bigCardAttivitaImage {
+  float: left;
+  width: 35%;
+}
+
+.bigCardAttivitaImage img {
+  width: 100%;
+  height: auto;
+}
+
+.bigCardAttivitaButton {
+  width: 95%;
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.immagineCarosello {
+  max-width: 100%;
+  aspect-ratio: 25/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.caroselloCaptionText {
+  color: rgb(50, 50, 50) !important;
+  border: solid 1px rgb(50, 50, 50);
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.caroselloCaptionText p {
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .immagineCarosello {
+    aspect-ratio: 20/9;
+  }
+}
+@media (max-width: 520px) {
+  .immagineCarosello {
+    aspect-ratio: 1/1;
+  }
+}
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.sectionTitle {
+  color: rgb(50, 50, 50);
+}
+
+.sectionTitleLink {
+  color: rgb(50, 50, 50) !important;
+}
+.sectionTitleLink:hover {
+  color: #368cfb !important;
+}
+
+.elencoBebCard {
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.elencoCardContainer {
+  background-color: rgba(255, 255, 255, 0.264);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.elencoCardImg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 16/9;
+  transition: opacity 0.5s ease;
+  border-radius: 5px;
+}
+
+span {
+  cursor: pointer;
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.searchSection {
+  position: relative;
+  height: 8rem;
+  background-color: #a7caf5;
+  z-index: 99;
+}
+
+.searchBarContainer {
+  padding-top: 2rem;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 270px;
+  cursor: pointer;
+}
+
+.input-wrapper {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 10px !important;
+  border: solid 2px rgb(50, 50, 50) !important;
+  height: 3rem;
+  padding: 0, 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2941176471);
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+#search-icon {
+  background-color: inherit;
+}
+
+.results-list {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.971);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.search-result {
+  padding: 10px 20px;
+}
+
+.search-result:hover {
+  background-color: #efefef;
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.cardTitleListaCard {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  padding: 2%;
+  display: inline-block;
+}
+
+.editSection {
+  border-top: 1px solid rgba(0, 0, 0, 0.265);
+}
+
+.colore.BEB {
+  background-color: #ade8f4;
+}
+
+.colore.HOTEL {
+  background-color: #90e0ef;
+}
+
+.colore.APPARTAMENTO {
+  background-color: #48cae4;
+}
+
+.colore.RESIDENCE {
+  background-color: #00b4d8;
+}
+
+.colore.ALTRO {
+  background-color: #0096c7;
+}
+
+.img-thumbnail.active {
+  border: 2px solid rgb(50, 50, 50);
+}/*# sourceMappingURL=app.css.map */

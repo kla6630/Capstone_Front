@@ -1,0 +1,30 @@
+.strutturePiurichiesteCardimg {
+  height: 15em;
+  object-fit: cover;
+  width: 100%;
+}
+
+.strutturePiurichiesteCardButton {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.cardTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.cardText {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 3.6em;
+  line-height: 1.8em;
+}

@@ -1,0 +1,14 @@
+@import "colori";
+
+.cardTitleListaCard {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  padding: 2%;
+  display: inline-block;
+}
+
+.editSection {
+  border-top: 1px solid rgba(0, 0, 0, 0.265);
+}

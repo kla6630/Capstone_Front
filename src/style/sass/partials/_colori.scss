@@ -1,0 +1,58 @@
+//Body//
+
+$body-background-color: rgb(131, 169, 201);
+
+$routes-container-color: #e4ebf1;
+
+//Colori per i  testi e i collegamenti
+
+$primary-color: rgb(50, 50, 50);
+$text-hover-color: #368cfb;
+$text-visited-color: rgb(126, 126, 126);
+
+//NAVBAR colors//
+$navbar-main-color: #a7caf5;
+$navbar-text-hover-color: #368cfb;
+
+//FOOTER colors//
+
+$footer-background-color: #2e8abb;
+$footer-text-hover-color: #caf0f8;
+
+//SFONDI PERSONALIZZATI IN BASE ALL'ENUM!!!
+//<Card className={classNames("d-flex", "colore", attivita.tipologiaAttivita)}>
+$beb-color: #ade8f4;
+$hotel-color: #90e0ef;
+$apartment-color: #48cae4;
+$residence-color: #00b4d8;
+$other-color: #0096c7;
+
+.colore.BEB {
+  background-color: $beb-color;
+}
+
+.colore.HOTEL {
+  background-color: $hotel-color;
+}
+
+.colore.APPARTAMENTO {
+  background-color: $apartment-color;
+}
+
+.colore.RESIDENCE {
+  background-color: $residence-color;
+}
+
+.colore.ALTRO {
+  background-color: $other-color;
+}
+
+//SECTIONS COLORS//
+
+$big-card-main-container-bg-color: #d0e3fa;
+
+$big-card-main-container-montagna-bg-color: #797e69;
+
+$big-card-main-container-mare-bg-color: #56afca;
+
+$forms-background-color: rgb(199, 228, 255);

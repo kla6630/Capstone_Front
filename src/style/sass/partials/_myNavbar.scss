@@ -1,0 +1,92 @@
+@import "colori";
+
+.myNavbar {
+  // border-bottom: solid 1px $primary-color;
+  padding: 1.5rem !important;
+}
+
+.nav-home {
+  background-color: $navbar-main-color;
+}
+.nav-beb {
+  background-color: $beb-color;
+}
+.nav-hotel {
+  background-color: $hotel-color;
+}
+.nav-apartment {
+  background-color: $apartment-color;
+}
+.nav-residence {
+  background-color: $residence-color;
+}
+.nav-other {
+  background-color: $other-color;
+}
+
+.colonnaCentrale {
+  display: flex !important;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkColonnaCentrale {
+  padding-top: 1.5rem;
+}
+
+#logoImg {
+  max-height: 3.5rem;
+  color: $primary-color;
+}
+
+@media screen and (max-width: 768px) {
+  .myNavbarBigScreens {
+    display: none !important;
+  }
+
+  .myNavbarSmallScreens {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .myNavbarSmallScreens {
+    display: none !important;
+  }
+
+  .myNavbarBigScreens {
+    display: block !important;
+  }
+}
+
+.myNavbarText {
+  color: $primary-color;
+  font-size: 1.1rem;
+  font-weight: bold;
+  &:hover {
+    color: $text-hover-color !important;
+  }
+}
+
+//MyNavBarBigScreens
+
+//MyNavBarSmallScrens
+.menuButton {
+  color: $primary-color !important;
+  border-color: $primary-color !important;
+  padding: 0.5rem !important;
+}
+
+.lastRows {
+  margin-top: 2rem;
+  border-top: 1px solid $primary-color;
+  padding: 10px;
+}
+
+a.nav-link {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-end;
+}

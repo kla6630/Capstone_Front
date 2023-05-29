@@ -1,0 +1,41 @@
+@import "colori";
+
+.bigCardMainContainer {
+  background-color: $big-card-main-container-bg-color;
+}
+
+.bigCardMainContainerMontagna {
+  background-color: $big-card-main-container-montagna-bg-color;
+}
+
+.bigCardMainContainerMare {
+  background-color: $big-card-main-container-mare-bg-color;
+}
+
+.bigCardImageContainer {
+  position: relative;
+  padding-top: 66.666%;
+
+  /* aspect ratio 3:2 */
+}
+
+.bigCardImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.bigCardImage.loaded {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .bigCardImageContainer {
+    padding-top: 115%;
+    /* regola questo per evitare spazi vuoti sotto l'immagine */
+  }
+}
