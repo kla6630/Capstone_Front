@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import { Col, Container, Row, Carousel, Card } from "react-bootstrap";
+import { Col, Row, Carousel, Card } from "react-bootstrap";
 import { useParams, Link } from "react-router-dom";
 import { CancellaAttivita } from "../common/Fetches/CancellaAttivita";
 import { ModificaAttivita } from "../SingolaAttivita/nuovaAttivita/ModificaAttivita";
