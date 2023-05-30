@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { Card } from "react-bootstrap";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import { TranslateTipologiaAttivita } from "../../common/Translate/TranslateTipologiaAttivita";
 
 export const StrutturePiuRichiesteCard = ({ attivita }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -25,13 +26,7 @@ export const StrutturePiuRichiesteCard = ({ attivita }) => {
       />
       <Card.Body>
         <Card.Title className="cardTitle">{attivita.nome}</Card.Title>
-        <Card.Subtitle>
-          {attivita.tipologiaAttivita === "BEB" && "Bed and Breakfast"}
-          {attivita.tipologiaAttivita === "HOTEL" && "Hotel"}
-          {attivita.tipologiaAttivita === "APPARTAMENTO" && "Appartamento"}
-          {attivita.tipologiaAttivita === "RESIDENCE" && "Residence"}
-          {attivita.tipologiaAttivita === "ALTRO" && "Altro"}
-        </Card.Subtitle>
+        <Card.Subtitle>{TranslateTipologiaAttivita(attivita.tipologiaAttivita)}</Card.Subtitle>
         <Card.Text className="cardText">{attivita.descrizione}...</Card.Text>
         <Card.Text>
           <strong>a partire da € {attivita.prezzoMinimo}</strong>

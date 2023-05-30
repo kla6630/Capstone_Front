@@ -60,7 +60,7 @@ export const ContactsPage = () => {
                 </Alert>
               ) : null}
 
-              <Button variant="outlined" onClick={resetForm} className={`mt-2 ${isSubmitted && "hideButton"}`}>
+              <Button variant="outlined" onClick={resetForm} className={`mt-2 ${isSubmitted && "hiddenButton"}`}>
                 Nuovo Messaggio
               </Button>
             </div>
@@ -101,7 +101,7 @@ export const ContactsPage = () => {
                 />
               </Form.Group>
 
-              <Button variant="outlined" type="submit" value="Send" className={`mt-2 ${!isFormValid && "hideButton"}`}>
+              <Button variant="outlined" type="submit" value="Send" className={`mt-2 ${!isFormValid && "hiddenButton"}`}>
                 Invia
               </Button>
             </Form>

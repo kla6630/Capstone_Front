@@ -66,7 +66,7 @@ a:visited * {
   border: 1px solid rgb(50, 50, 50) !important;
 }
 
-.hideButton {
+.hiddenButton {
   color: rgba(128, 128, 128, 0.374) !important;
   border: 1px solid rgba(128, 128, 128, 0.374) !important;
 }
@@ -677,4 +677,13 @@ span {
 
 .img-thumbnail.active {
   border: 2px solid rgb(50, 50, 50);
+}
+
+.innerContainerDa {
+  background-color: rgba(255, 255, 255, 0.511);
+  border-radius: 10px;
+}
+
+.bookingSection {
+  background-color: aliceblue;
 }/*# sourceMappingURL=app.css.map */

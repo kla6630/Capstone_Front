@@ -99,7 +99,7 @@ export const RegistrationPage = () => {
           <Button
             variant="outlined"
             type="submit"
-            className={`allButtons ${!isFormValid() ? "hideButton" : ""}`}
+            className={`allButtons ${!isFormValid() ? "hiddenButton" : ""}`}
             disabled={!isFormValid()}
           >
             Registrati

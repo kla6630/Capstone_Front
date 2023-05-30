@@ -20,7 +20,7 @@ const Login = () => {
     };
     const success = await login(payload);
     if (success) {
-      navigate("/LogoutPage");
+      navigate(-1, { replace: true });
     } else {
       setLoginError(true);
     }
@@ -39,9 +39,9 @@ const Login = () => {
             <h2>Login</h2>
             <h5>Inserisci le tue crenziali per effettuare l'accesso</h5>
             <p>
-              Se sei nuovo puoi registrarti cliccando{" "}
+              Se sei nuovo puoi registrarti cliccando
               <Link to="/registration">
-                <b>QUI</b>
+                <b> QUI</b>
               </Link>
             </p>
             <p>
@@ -60,7 +60,7 @@ const Login = () => {
               <Button
                 variant="outlined"
                 type="button"
-                className={`allButtons ${isButtonDisabled ? "hideButton" : ""}`}
+                className={`allButtons ${isButtonDisabled ? "hiddenButton" : ""}`}
                 onClick={loginSubmit}
                 disabled={isButtonDisabled}
               >
