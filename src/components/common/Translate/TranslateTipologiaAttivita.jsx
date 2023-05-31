@@ -9,7 +9,7 @@ export const TranslateTipologiaAttivita = (tipologiaAttivita) => {
     case "RESIDENCE":
       return "Residence";
     case "ALTRO":
-      return "Altro";
+      return "Camping";
     default:
       return "N/A";
   }

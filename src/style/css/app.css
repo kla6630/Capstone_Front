@@ -686,4 +686,23 @@ span {
 
 .bookingSection {
   background-color: aliceblue;
+}
+
+.detTextField {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 10px !important;
+  border: solid 2px rgb(50, 50, 50) !important;
+  padding: 0, 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2941176471);
+  display: flex;
+}
+
+.thumb {
+  aspect-ratio: 1/1;
+}
+
+.thumb img {
+  width: 100% !important;
+  height: 100% !important;
 }/*# sourceMappingURL=app.css.map */
