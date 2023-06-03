@@ -17,15 +17,15 @@ export const Footer = () => {
       <footer>
         <Container className="footer">
           <Row className="d-flex align-items-center">
-            <Col md={6} className="mt-3">
+            <Col xs={12} md={6} className="mt-3">
               <h2>easyBook</h2>
               <h5>Trova il tuo alloggio ideale, per una vacanza perfetta.</h5>
             </Col>
             <Col md={6} className="mt-3">
               <Row>
-                <Col xs={12} sm={4}>
+                <Col xs={6} sm={4}>
                   <ul className="list-unstyled">
-                    <h4 className="text-uppercase">Strutture</h4>
+                    <h4 className="text-uppercase">menu rapido</h4>
                     <li>
                       <Link to="/" onClick={scrollToTop}>
                         Home
@@ -59,7 +59,7 @@ export const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col xs={12} sm={4}>
+                <Col xs={6} sm={4}>
                   <ul className="list-unstyled">
                     <h4 className="text-uppercase">Chi siamo</h4>
                     <li>
@@ -77,7 +77,7 @@ export const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col xs={12} sm={4}>
+                <Col xs={6} sm={4}>
                   <ul className="list-unstyled">
                     <h4 className="text-uppercase">social</h4>
                     <li>

@@ -71,3 +71,16 @@ a {
   text-decoration: none;
   all: none;
 }
+
+@media print {
+  .footer,
+  .navbar,
+  .Navbar,
+  .myNavbarSmallScreens,
+  .myNavbarBigScreens,
+  .myNavbar,
+  Button,
+  .noPrint {
+    display: none !important;
+  }
+}

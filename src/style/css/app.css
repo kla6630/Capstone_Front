@@ -83,6 +83,18 @@ a:visited * {
   all: none;
 }
 
+@media print {
+  .footer,
+  .navbar,
+  .Navbar,
+  .myNavbarSmallScreens,
+  .myNavbarBigScreens,
+  .myNavbar,
+  Button,
+  .noPrint {
+    display: none !important;
+  }
+}
 .colore.BEB {
   background-color: #ade8f4;
 }

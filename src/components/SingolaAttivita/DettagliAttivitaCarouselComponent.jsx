@@ -2,11 +2,10 @@ import { useEffect, useState } from "react";
 import { TranslateTipologiaAttivita } from "../common/Translate/TranslateTipologiaAttivita";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { AspectRatio } from "@mui/icons-material";
 
 export const DettagliAttivitaCarouselComponent = ({ attivita }) => {
   const searchTerm = TranslateTipologiaAttivita(attivita.tipologiaAttivita);
-  console.log("Termine di ricerca:", searchTerm);
+  // console.log("Termine di ricerca:", searchTerm);
 
   const [images, setImages] = useState([]);
 

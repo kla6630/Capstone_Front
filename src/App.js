@@ -32,6 +32,7 @@ import { ElencoTutteLeAttivitaSection } from "./components/navPagesComponents/tu
 import Login from "./components/Auth/Login";
 import LogoutPage from "./components/Auth/LogoutPage";
 import { RiepilogoPrenotazione } from "./components/SingolaAttivita/RiepilogoPrenotazione";
+import { RiepilogoPrenotazioneP2 } from "./components/SingolaAttivita/RiepilogoPrenotazioneP2";
 
 export default function App() {
   return (
@@ -91,6 +92,15 @@ export default function App() {
               element={
                 <ProtectedRoute accessBy="authenticated">
                   <RiepilogoPrenotazione />
+                </ProtectedRoute>
+              }
+            ></Route>
+
+            <Route
+              path="/riepilogo-prenotazione-p2"
+              element={
+                <ProtectedRoute accessBy="authenticated">
+                  <RiepilogoPrenotazioneP2 />
                 </ProtectedRoute>
               }
             ></Route>

@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Row, Col, Form, Alert } from "react-bootstrap";
-import { Email, Map, Phone } from "@mui/icons-material";
+import { Email, Facebook, GitHub, Instagram, LinkedIn, Map, Phone, Pinterest } from "@mui/icons-material";
 import { Button } from "@mui/material";
 import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ export const ContactsPage = () => {
         setShowAlert(true);
       },
       (error) => {
-        console.log("Errore: ",error.text);
+        console.log("Errore: ", error.text);
       }
     );
   };
@@ -101,7 +101,12 @@ export const ContactsPage = () => {
                 />
               </Form.Group>
 
-              <Button variant="outlined" type="submit" value="Send" className={`mt-2 ${!isFormValid && "hiddenButton"}`}>
+              <Button
+                variant="outlined"
+                type="submit"
+                value="Send"
+                className={`mt-2 ${!isFormValid && "hiddenButton"}`}
+              >
                 Invia
               </Button>
             </Form>
@@ -119,6 +124,31 @@ export const ContactsPage = () => {
           <p>
             <Map />
             Via Molise, 15 - 09127 Cagliari
+          </p>
+
+          <hr />
+
+          <h4>Social</h4>
+          <p>
+            <LinkedIn />
+            <Link to="https://www.linkedin.com/in/claudio-pinna-277093253/">LinkedIn</Link>
+          </p>
+          <p>
+            <Facebook />
+            <Link to="https://www.facebook.com/claudio.pinna01">Facebook</Link>
+          </p>
+          <p>
+            <Instagram />
+            <Link to="https://www.instagram.com/claudio_pinna_/">Instagram</Link>
+          </p>
+
+          <p>
+            <GitHub />
+            <Link to="https://github.com/kla6630">GitHub</Link>
+          </p>
+          <p>
+            <Pinterest />
+            <Link to="#">Pinterest</Link>
           </p>
         </Col>
       </Row>

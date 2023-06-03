@@ -56,7 +56,7 @@ export const AboutPage = () => {
         </Card.Body>
 
         <Card.Footer>
-          <Button variant="outlined">
+          <Button variant="outlined" className="mt-2 allButtons">
             <Link to="/contactspage/" onClick={scrollToTop}>
               Contattaci
             </Link>

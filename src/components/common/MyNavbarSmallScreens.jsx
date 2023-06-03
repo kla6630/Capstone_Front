@@ -38,7 +38,7 @@ export const MyNavbarSmallScreens = () => {
           : "nav-home"
       }`}
     >
-      <Container>
+      <Container className="noPrint">
         <Navbar.Brand href="/">
           <img
             src={easyBookLogo}

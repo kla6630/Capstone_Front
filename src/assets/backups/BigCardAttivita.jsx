@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Button, Card } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 export const BigCardAttivita = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -14,7 +13,7 @@ export const BigCardAttivita = () => {
     <Container className="bigCardAttivitaContainer">
       <Row className="bigCardAttivitaContainerInterno">
         <Col className="bigCardAttivitaImage col-sm-12 col-md-6">
-          <img src="https://picsum.photos/1920/1080" className="img-fluid" onLoad={handleImageLoaded} />
+          <img src="https://picsum.photos/1920/1080" alt=" img" className="img-fluid" onLoad={handleImageLoaded} />
         </Col>
         <Col className="col-sm-12 col-md-6">
           <h2 className="card-title mb-3">Scopri la tua prossima meta da sogno</h2>

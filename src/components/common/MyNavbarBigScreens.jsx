@@ -29,7 +29,7 @@ export const MyNavbarBigScreens = () => {
           : "nav-home"
       }`}
     >
-      <Container>
+      <Container className="noPrint">
         <Col xs={2} className="d-flex justify-content-start text-uppercase ">
           <Link to="/aboutpage/" className="myNavbarText">
             About us
